@@ -1,0 +1,48 @@
+[4.200s] Invoking command in '/root/yahboomcar_ws/src/yahboom_base': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_base/prefix_override:/root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_base build --build-base /root/yahboomcar_ws/src/build/yahboom_base/build install --record /root/yahboomcar_ws/src/build/yahboom_base/install.log --single-version-externally-managed install_data
+[5.570s] running egg_info
+[5.572s] creating ../build/yahboom_base/yahboom_base.egg-info
+[5.582s] writing ../build/yahboom_base/yahboom_base.egg-info/PKG-INFO
+[5.583s] writing dependency_links to ../build/yahboom_base/yahboom_base.egg-info/dependency_links.txt
+[5.584s] writing entry points to ../build/yahboom_base/yahboom_base.egg-info/entry_points.txt
+[5.593s] writing requirements to ../build/yahboom_base/yahboom_base.egg-info/requires.txt
+[5.598s] writing top-level names to ../build/yahboom_base/yahboom_base.egg-info/top_level.txt
+[5.599s] writing manifest file '../build/yahboom_base/yahboom_base.egg-info/SOURCES.txt'
+[5.624s] reading manifest file '../build/yahboom_base/yahboom_base.egg-info/SOURCES.txt'
+[5.640s] writing manifest file '../build/yahboom_base/yahboom_base.egg-info/SOURCES.txt'
+[5.640s] running build
+[5.640s] running build_py
+[5.640s] creating /root/yahboomcar_ws/src/build/yahboom_base/build
+[5.640s] creating /root/yahboomcar_ws/src/build/yahboom_base/build/lib
+[5.641s] creating /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base
+[5.641s] copying yahboom_base/publisher_member_function.py -> /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base
+[5.642s] copying yahboom_base/ref.py -> /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base
+[5.646s] copying yahboom_base/base.py -> /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base
+[5.650s] copying yahboom_base/control_test.py -> /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base
+[5.650s] copying yahboom_base/__init__.py -> /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base
+[5.651s] running install
+[5.652s] running install_lib
+[5.661s] creating /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base
+[5.667s] copying /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base/publisher_member_function.py -> /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base
+[5.667s] copying /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base/ref.py -> /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base
+[5.671s] copying /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base/base.py -> /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base
+[5.671s] copying /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base/control_test.py -> /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base
+[5.671s] copying /root/yahboomcar_ws/src/build/yahboom_base/build/lib/yahboom_base/__init__.py -> /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base
+[5.673s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[5.689s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base/ref.py to ref.cpython-310.pyc
+[5.711s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base/base.py to base.cpython-310.pyc
+[5.722s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base/control_test.py to control_test.cpython-310.pyc
+[5.724s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base/__init__.py to __init__.cpython-310.pyc
+[5.725s] running install_data
+[5.726s] creating /root/yahboomcar_ws/src/install/yahboom_base/share/ament_index
+[5.727s] creating /root/yahboomcar_ws/src/install/yahboom_base/share/ament_index/resource_index
+[5.727s] creating /root/yahboomcar_ws/src/install/yahboom_base/share/ament_index/resource_index/packages
+[5.727s] copying resource/yahboom_base -> /root/yahboomcar_ws/src/install/yahboom_base/share/ament_index/resource_index/packages
+[5.727s] copying package.xml -> /root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base
+[5.727s] copying launch/yahboom_base.launch.py -> /root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base
+[5.727s] running install_egg_info
+[5.745s] Copying ../build/yahboom_base/yahboom_base.egg-info to /root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages/yahboom_base-0.0.0-py3.10.egg-info
+[5.745s] running install_scripts
+[5.886s] Installing base script to /root/yahboomcar_ws/src/install/yahboom_base/lib/yahboom_base
+[5.887s] Installing talker script to /root/yahboomcar_ws/src/install/yahboom_base/lib/yahboom_base
+[5.890s] writing list of installed files to '/root/yahboomcar_ws/src/build/yahboom_base/install.log'
+[6.224s] Invoked command in '/root/yahboomcar_ws/src/yahboom_base' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_base/prefix_override:/root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_base build --build-base /root/yahboomcar_ws/src/build/yahboom_base/build install --record /root/yahboomcar_ws/src/build/yahboom_base/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[1.613s] Invoking command in '/root/yahboomcar_ws/src/tf_publisher': PYTHONPATH=/root/yahboomcar_ws/src/build/tf_publisher/prefix_override:/root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tf_publisher build --build-base /root/yahboomcar_ws/src/build/tf_publisher/build install --record /root/yahboomcar_ws/src/build/tf_publisher/install.log --single-version-externally-managed install_data
+[2.387s] running egg_info
+[2.388s] creating ../build/tf_publisher/tf_publisher.egg-info
+[2.391s] writing ../build/tf_publisher/tf_publisher.egg-info/PKG-INFO
+[2.391s] writing dependency_links to ../build/tf_publisher/tf_publisher.egg-info/dependency_links.txt
+[2.393s] writing entry points to ../build/tf_publisher/tf_publisher.egg-info/entry_points.txt
+[2.393s] writing requirements to ../build/tf_publisher/tf_publisher.egg-info/requires.txt
+[2.394s] writing top-level names to ../build/tf_publisher/tf_publisher.egg-info/top_level.txt
+[2.398s] writing manifest file '../build/tf_publisher/tf_publisher.egg-info/SOURCES.txt'
+[2.401s] reading manifest file '../build/tf_publisher/tf_publisher.egg-info/SOURCES.txt'
+[2.403s] writing manifest file '../build/tf_publisher/tf_publisher.egg-info/SOURCES.txt'
+[2.403s] running build
+[2.403s] running build_py
+[2.404s] creating /root/yahboomcar_ws/src/build/tf_publisher/build
+[2.404s] creating /root/yahboomcar_ws/src/build/tf_publisher/build/lib
+[2.404s] creating /root/yahboomcar_ws/src/build/tf_publisher/build/lib/tf_publisher
+[2.404s] copying tf_publisher/tf_publisher.py -> /root/yahboomcar_ws/src/build/tf_publisher/build/lib/tf_publisher
+[2.415s] copying tf_publisher/__init__.py -> /root/yahboomcar_ws/src/build/tf_publisher/build/lib/tf_publisher
+[2.415s] running install
+[2.415s] running install_lib
+[2.416s] creating /root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages/tf_publisher
+[2.416s] copying /root/yahboomcar_ws/src/build/tf_publisher/build/lib/tf_publisher/tf_publisher.py -> /root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages/tf_publisher
+[2.416s] copying /root/yahboomcar_ws/src/build/tf_publisher/build/lib/tf_publisher/__init__.py -> /root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages/tf_publisher
+[2.416s] byte-compiling /root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages/tf_publisher/tf_publisher.py to tf_publisher.cpython-310.pyc
+[2.416s] byte-compiling /root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages/tf_publisher/__init__.py to __init__.cpython-310.pyc
+[2.416s] running install_data
+[2.416s] creating /root/yahboomcar_ws/src/install/tf_publisher/share/ament_index
+[2.416s] creating /root/yahboomcar_ws/src/install/tf_publisher/share/ament_index/resource_index
+[2.416s] creating /root/yahboomcar_ws/src/install/tf_publisher/share/ament_index/resource_index/packages
+[2.417s] copying resource/tf_publisher -> /root/yahboomcar_ws/src/install/tf_publisher/share/ament_index/resource_index/packages
+[2.417s] copying package.xml -> /root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher
+[2.417s] running install_egg_info
+[2.421s] Copying ../build/tf_publisher/tf_publisher.egg-info to /root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages/tf_publisher-0.0.0-py3.10.egg-info
+[2.433s] running install_scripts
+[2.520s] Installing tf_publisher script to /root/yahboomcar_ws/src/install/tf_publisher/lib/tf_publisher
+[2.527s] writing list of installed files to '/root/yahboomcar_ws/src/build/tf_publisher/install.log'
+[2.687s] Invoked command in '/root/yahboomcar_ws/src/tf_publisher' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/tf_publisher/prefix_override:/root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tf_publisher build --build-base /root/yahboomcar_ws/src/build/tf_publisher/build install --record /root/yahboomcar_ws/src/build/tf_publisher/install.log --single-version-externally-managed install_data

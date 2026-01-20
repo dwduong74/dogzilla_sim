@@ -1,0 +1,85 @@
+running egg_info
+creating ../build/yahboom_laser/yahboom_laser.egg-info
+writing ../build/yahboom_laser/yahboom_laser.egg-info/PKG-INFO
+writing dependency_links to ../build/yahboom_laser/yahboom_laser.egg-info/dependency_links.txt
+writing entry points to ../build/yahboom_laser/yahboom_laser.egg-info/entry_points.txt
+writing requirements to ../build/yahboom_laser/yahboom_laser.egg-info/requires.txt
+writing top-level names to ../build/yahboom_laser/yahboom_laser.egg-info/top_level.txt
+writing manifest file '../build/yahboom_laser/yahboom_laser.egg-info/SOURCES.txt'
+reading manifest file '../build/yahboom_laser/yahboom_laser.egg-info/SOURCES.txt'
+writing manifest file '../build/yahboom_laser/yahboom_laser.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/yahboomcar_ws/src/build/yahboom_laser/build
+creating /root/yahboomcar_ws/src/build/yahboom_laser/build/lib
+creating /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Patrol_xgo_RS200.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Tracker_4ROS.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Avoidance_4ROS_R2.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Tracker_a1_R2.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Tracker_4ROS_R2.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Avoidance_4ROS.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Tracker_xgo_RS200.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Avoidance_a1_R2.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/common.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Tracker_a1_X3.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Warning_xgo_RS200.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Avoidance_a1_X3.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/__init__.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Avoidance_xgo_RS200.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+copying yahboom_laser/laser_Warning_a1_X3.py -> /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser
+running install
+running install_lib
+creating /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Patrol_xgo_RS200.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Tracker_4ROS.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Avoidance_4ROS_R2.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Tracker_a1_R2.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Tracker_4ROS_R2.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Avoidance_4ROS.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Tracker_xgo_RS200.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Avoidance_a1_R2.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/common.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Tracker_a1_X3.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Warning_xgo_RS200.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Avoidance_a1_X3.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/__init__.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Avoidance_xgo_RS200.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+copying /root/yahboomcar_ws/src/build/yahboom_laser/build/lib/yahboom_laser/laser_Warning_a1_X3.py -> /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Patrol_xgo_RS200.py to laser_Patrol_xgo_RS200.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Tracker_4ROS.py to laser_Tracker_4ROS.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Avoidance_4ROS_R2.py to laser_Avoidance_4ROS_R2.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Tracker_a1_R2.py to laser_Tracker_a1_R2.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Tracker_4ROS_R2.py to laser_Tracker_4ROS_R2.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Avoidance_4ROS.py to laser_Avoidance_4ROS.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Tracker_xgo_RS200.py to laser_Tracker_xgo_RS200.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Avoidance_a1_R2.py to laser_Avoidance_a1_R2.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/common.py to common.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Tracker_a1_X3.py to laser_Tracker_a1_X3.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Warning_xgo_RS200.py to laser_Warning_xgo_RS200.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Avoidance_a1_X3.py to laser_Avoidance_a1_X3.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Avoidance_xgo_RS200.py to laser_Avoidance_xgo_RS200.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser/laser_Warning_a1_X3.py to laser_Warning_a1_X3.cpython-310.pyc
+running install_data
+creating /root/yahboomcar_ws/src/install/yahboom_laser/share/ament_index
+creating /root/yahboomcar_ws/src/install/yahboom_laser/share/ament_index/resource_index
+creating /root/yahboomcar_ws/src/install/yahboom_laser/share/ament_index/resource_index/packages
+copying resource/yahboom_laser -> /root/yahboomcar_ws/src/install/yahboom_laser/share/ament_index/resource_index/packages
+copying package.xml -> /root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser
+creating /root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/launch
+running install_egg_info
+Copying ../build/yahboom_laser/yahboom_laser.egg-info to /root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages/yahboom_laser-0.0.0-py3.10.egg-info
+running install_scripts
+Installing laser_Avoidance_4ROS_R2 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Avoidance_a1_R2 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Avoidance_a1_X3 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Avoidance_xgo_RS200 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Patrol_RS200 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Tracke_RS200 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Tracker_4ROS_R2 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Tracker_a1_R2 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Tracker_a1_X3 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Warning_RS200 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+Installing laser_Warning_a1_X3 script to /root/yahboomcar_ws/src/install/yahboom_laser/lib/yahboom_laser
+writing list of installed files to '/root/yahboomcar_ws/src/build/yahboom_laser/install.log'

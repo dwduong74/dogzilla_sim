@@ -1,0 +1,42 @@
+[2.160s] Invoking command in '/root/yahboomcar_ws/src/yahboom_app_save_map': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_app_save_map/prefix_override:/root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_app_save_map build --build-base /root/yahboomcar_ws/src/build/yahboom_app_save_map/build install --record /root/yahboomcar_ws/src/build/yahboom_app_save_map/install.log --single-version-externally-managed install_data
+[3.617s] running egg_info
+[3.619s] creating ../build/yahboom_app_save_map/yahboom_app_save_map.egg-info
+[3.635s] writing ../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/PKG-INFO
+[3.635s] writing dependency_links to ../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/dependency_links.txt
+[3.635s] writing entry points to ../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/entry_points.txt
+[3.635s] writing requirements to ../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/requires.txt
+[3.635s] writing top-level names to ../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/top_level.txt
+[3.636s] writing manifest file '../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[3.673s] reading manifest file '../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[3.673s] writing manifest file '../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[3.677s] running build
+[3.677s] running build_py
+[3.678s] creating /root/yahboomcar_ws/src/build/yahboom_app_save_map/build
+[3.684s] creating /root/yahboomcar_ws/src/build/yahboom_app_save_map/build/lib
+[3.685s] creating /root/yahboomcar_ws/src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[3.685s] copying yahboom_app_save_map/yahboom_app_save_map.py -> /root/yahboomcar_ws/src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[3.696s] copying yahboom_app_save_map/yahboom_app_save_map_client.py -> /root/yahboomcar_ws/src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[3.700s] copying yahboom_app_save_map/__init__.py -> /root/yahboomcar_ws/src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[3.700s] running install
+[3.700s] running install_lib
+[3.708s] creating /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map
+[3.708s] copying /root/yahboomcar_ws/src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map.py -> /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map
+[3.709s] copying /root/yahboomcar_ws/src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map_client.py -> /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map
+[3.709s] copying /root/yahboomcar_ws/src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/__init__.py -> /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map
+[3.716s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map/yahboom_app_save_map.py to yahboom_app_save_map.cpython-310.pyc
+[3.732s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map/yahboom_app_save_map_client.py to yahboom_app_save_map_client.cpython-310.pyc
+[3.734s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map/__init__.py to __init__.cpython-310.pyc
+[3.734s] running install_data
+[3.734s] creating /root/yahboomcar_ws/src/install/yahboom_app_save_map/share/ament_index
+[3.734s] creating /root/yahboomcar_ws/src/install/yahboom_app_save_map/share/ament_index/resource_index
+[3.735s] creating /root/yahboomcar_ws/src/install/yahboom_app_save_map/share/ament_index/resource_index/packages
+[3.735s] copying resource/yahboom_app_save_map -> /root/yahboomcar_ws/src/install/yahboom_app_save_map/share/ament_index/resource_index/packages
+[3.740s] copying package.xml -> /root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map
+[3.740s] copying launch/yahboom_app_save_map.launch.py -> /root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map
+[3.740s] running install_egg_info
+[3.740s] Copying ../build/yahboom_app_save_map/yahboom_app_save_map.egg-info to /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map-0.0.0-py3.10.egg-info
+[3.750s] running install_scripts
+[3.902s] Installing client script to /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[3.902s] Installing server script to /root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[3.904s] writing list of installed files to '/root/yahboomcar_ws/src/build/yahboom_app_save_map/install.log'
+[4.231s] Invoked command in '/root/yahboomcar_ws/src/yahboom_app_save_map' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_app_save_map/prefix_override:/root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_app_save_map build --build-base /root/yahboomcar_ws/src/build/yahboom_app_save_map/build install --record /root/yahboomcar_ws/src/build/yahboom_app_save_map/install.log --single-version-externally-managed install_data

@@ -1,0 +1,115 @@
+[0.038s] Invoking command in '/root/yahboomcar_ws/src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/oradar_lidar -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/oradar_lidar
+[0.193s] -- The C compiler identification is GNU 11.4.0
+[0.317s] -- The CXX compiler identification is GNU 11.4.0
+[0.331s] -- Detecting C compiler ABI info
+[0.473s] -- Detecting C compiler ABI info - done
+[0.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.483s] -- Detecting C compile features - done
+[0.492s] -- Detecting CXX compiler ABI info
+[0.643s] -- Detecting CXX compiler ABI info - done
+[0.669s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.670s] -- Detecting CXX compile features
+[0.677s] -- Detecting CXX compile features - done
+[0.718s] [0m=============================================================[0m
+[0.718s] [0m-- ROS Not Found, Ros Support is turned Off![0m
+[0.718s] [0m=============================================================[0m
+[1.183s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.645s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.660s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.697s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.723s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.769s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.952s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.960s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.232s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.361s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.618s] -- Looking for pthread.h
+[2.867s] -- Looking for pthread.h - found
+[2.867s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.185s] -- Found Threads: TRUE  
+[3.905s] [0m=============================================================[0m
+[3.906s] [0m-- ROS2 Found. ROS2 Support is turned On![0m
+[3.906s] [0m=============================================================[0m
+[3.990s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.593s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:36 (cmake_policy):
+[4.593s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[4.593s]   of CMake.
+[4.593s] 
+[4.593s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[4.594s]   policies are deprecated and that a policy should be set to OLD only under
+[4.594s]   specific short-term circumstances.  Projects should be ported to the NEW
+[4.594s]   behavior and not rely on setting a policy to OLD.
+[4.594s] 
+[4.594s] [0m
+[4.594s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:39 (cmake_policy):
+[4.594s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[4.594s]   of CMake.
+[4.594s] 
+[4.594s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[4.594s]   policies are deprecated and that a policy should be set to OLD only under
+[4.594s]   specific short-term circumstances.  Projects should be ported to the NEW
+[4.594s]   behavior and not rely on setting a policy to OLD.
+[4.594s] 
+[4.594s] [0m
+[4.594s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:42 (cmake_policy):
+[4.595s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[4.595s]   of CMake.
+[4.595s] 
+[4.595s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[4.595s]   policies are deprecated and that a policy should be set to OLD only under
+[4.595s]   specific short-term circumstances.  Projects should be ported to the NEW
+[4.595s]   behavior and not rely on setting a policy to OLD.
+[4.595s] 
+[4.595s] [0m
+[4.609s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[4.724s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[4.754s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[4.817s] [0mCMake Deprecation Warning at sdk/cmake/install_package.cmake:101 (cmake_policy):
+[4.818s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[4.818s]   of CMake.
+[4.818s] 
+[4.818s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[4.818s]   policies are deprecated and that a policy should be set to OLD only under
+[4.819s]   specific short-term circumstances.  Projects should be ported to the NEW
+[4.819s]   behavior and not rely on setting a policy to OLD.
+[4.819s] Call Stack (most recent call first):
+[4.819s]   sdk/CMakeLists.txt:105 (install_package)
+[4.819s] 
+[4.819s] [0m
+[5.161s] -- Configuring done
+[5.343s] -- Generating done
+[5.357s] -- Build files have been written to: /root/yahboomcar_ws/src/build/oradar_lidar
+[5.466s] Invoked command in '/root/yahboomcar_ws/src/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/oradar_lidar -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/oradar_lidar
+[5.489s] Invoking command in '/root/yahboomcar_ws/src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/oradar_lidar -- -j4 -l4
+[5.702s] [  5%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/base/timer.cpp.o[0m
+[5.715s] [ 10%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[5.747s] [ 20%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[5.753s] [ 20%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[6.272s] [ 25%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/serial.cpp.o[0m
+[7.037s] [ 30%] [32mBuilding C object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[8.111s] [ 35%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[8.194s] [ 40%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[10.142s] [ 45%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/ord_lidar_c_api_driver.cpp.o[0m
+[10.496s] [ 50%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/ord_lidar_driver.cpp.o[0m
+[11.067s] [ 55%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/filters/FullScanFilter.cpp.o[0m
+[12.563s] [01m[K/root/yahboomcar_ws/src/oradar_lidar/sdk/src/ord_lidar_driver.cpp:[m[K In member function ‘[01m[Kbool ordlidar::OrdlidarDriver::uart_data_find_init_info(unsigned char*, int)[m[K’:
+[12.563s] [01m[K/root/yahboomcar_ws/src/oradar_lidar/sdk/src/ord_lidar_driver.cpp:203:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[12.563s]   203 |         [01;35m[K}[m[K
+[12.563s]       |         [01;35m[K^[m[K
+[14.616s] [ 60%] [32m[1mLinking CXX static library ../liboradar_sdk.a[0m
+[14.789s] [ 60%] Built target oradar_sdk
+[14.861s] [ 65%] [32mBuilding C object sdk/samples/CMakeFiles/blocking_c_api_test.dir/blocking_c_api_test.c.o[0m
+[14.877s] [ 70%] [32mBuilding CXX object sdk/samples/CMakeFiles/non-blocking_test.dir/non-blocking_test.cpp.o[0m
+[14.885s] [ 80%] [32mBuilding CXX object sdk/samples/CMakeFiles/blocking_test.dir/blocking_test.cpp.o[0m
+[14.891s] [ 75%] [32mBuilding CXX object CMakeFiles/oradar_scan.dir/src/oradar_scan_node.cpp.o[0m
+[15.031s] [ 85%] [32m[1mLinking CXX executable ../../blocking_c_api_test[0m
+[15.477s] [ 85%] Built target blocking_c_api_test
+[16.115s] [ 90%] [32m[1mLinking CXX executable ../../non-blocking_test[0m
+[16.569s] [ 95%] [32m[1mLinking CXX executable ../../blocking_test[0m
+[16.613s] [ 95%] Built target non-blocking_test
+[16.789s] [ 95%] Built target blocking_test
+[35.023s] [100%] [32m[1mLinking CXX executable oradar_scan[0m
+[35.272s] [100%] Built target oradar_scan

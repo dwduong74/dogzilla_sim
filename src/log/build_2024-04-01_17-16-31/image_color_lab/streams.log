@@ -1,0 +1,257 @@
+[0.036s] Invoking command in '/root/yahboomcar_ws/src/build/image_color_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/image_color_lab -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/image_color_lab
+[0.481s] -- The C compiler identification is GNU 11.4.0
+[0.482s] -- The CXX compiler identification is GNU 11.4.0
+[0.482s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.482s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.482s] -- Detecting C compile features - done
+[0.482s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.482s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.482s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.895s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.227s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.388s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.405s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.431s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.757s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.582s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.041s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.051s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.119s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.120s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.120s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.120s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.180s] -- Found PythonExtra: .so  
+[4.323s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.415s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.422s] -- Added test 'lint_cmake' to check CMake code style
+[4.426s] -- Added test 'xmllint' to check XML markup files
+[4.432s] -- Configuring done
+[4.510s] -- Generating done
+[4.518s] -- Build files have been written to: /root/yahboomcar_ws/src/build/image_color_lab
+[4.547s] Invoked command in '/root/yahboomcar_ws/src/build/image_color_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/image_color_lab -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/image_color_lab
+[4.556s] Invoking command in '/root/yahboomcar_ws/src/build/image_color_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/image_color_lab -- -j4 -l4
+[4.643s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.645s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.715s] [  5%] Built target ament_cmake_python_copy_image_color_lab
+[5.417s] [  5%] Built target image_color_lab__cpp
+[5.455s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.460s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.463s] running egg_info
+[5.465s] creating image_color_lab.egg-info
+[5.471s] writing image_color_lab.egg-info/PKG-INFO
+[5.475s] writing dependency_links to image_color_lab.egg-info/dependency_links.txt
+[5.475s] writing top-level names to image_color_lab.egg-info/top_level.txt
+[5.476s] writing manifest file 'image_color_lab.egg-info/SOURCES.txt'
+[5.478s] reading manifest file 'image_color_lab.egg-info/SOURCES.txt'
+[5.487s] writing manifest file 'image_color_lab.egg-info/SOURCES.txt'
+[5.718s] [ 10%] Built target ament_cmake_python_build_image_color_lab_egg
+[5.741s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.966s] [ 15%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_generator_c.dir/rosidl_generator_c/image_color_lab/msg/detail/lab__functions.c.o[0m
+[6.144s] [ 17%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_generator_c.dir/rosidl_generator_c/image_color_lab/msg/detail/string_stamped__functions.c.o[0m
+[6.268s] [ 20%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/image_color_lab/msg/lab__type_support.cpp.o[0m
+[6.354s] [ 23%] [32m[1mLinking C shared library libimage_color_lab__rosidl_generator_c.so[0m
+[6.539s] [ 23%] Built target image_color_lab__rosidl_generator_c
+[6.586s] [ 25%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/image_color_lab/msg/string_stamped__type_support.cpp.o[0m
+[6.622s] [ 28%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/image_color_lab/msg/detail/dds_fastrtps/lab__type_support.cpp.o[0m
+[6.881s] [ 30%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/image_color_lab/msg/detail/lab__type_support.cpp.o[0m
+[7.382s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.411s] [ 35%] [32m[1mLinking CXX shared library libimage_color_lab__rosidl_typesupport_cpp.so[0m
+[7.547s] [ 35%] Built target image_color_lab__rosidl_typesupport_cpp
+[7.587s] [ 38%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/image_color_lab/msg/detail/string_stamped__type_support.cpp.o[0m
+[8.038s] [ 41%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/image_color_lab/msg/detail/dds_fastrtps/string_stamped__type_support.cpp.o[0m
+[8.557s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.839s] [ 46%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/image_color_lab/msg/detail/lab__type_support_c.cpp.o[0m
+[9.331s] [ 48%] [32m[1mLinking CXX shared library libimage_color_lab__rosidl_typesupport_introspection_cpp.so[0m
+[9.821s] [ 51%] [32m[1mLinking CXX shared library libimage_color_lab__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.840s] [ 51%] Built target image_color_lab__rosidl_typesupport_introspection_cpp
+[9.886s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.248s] [ 53%] Built target image_color_lab__rosidl_typesupport_fastrtps_cpp
+[10.283s] [ 56%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/image_color_lab/msg/detail/string_stamped__type_support_c.cpp.o[0m
+[10.468s] [ 58%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/image_color_lab/msg/detail/lab__type_support.c.o[0m
+[10.498s] [ 61%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/image_color_lab/msg/detail/string_stamped__type_support.c.o[0m
+[10.687s] [ 64%] [32m[1mLinking C shared library libimage_color_lab__rosidl_typesupport_introspection_c.so[0m
+[10.813s] [ 64%] Built target image_color_lab__rosidl_typesupport_introspection_c
+[10.931s] [ 66%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_c.dir/rosidl_typesupport_c/image_color_lab/msg/lab__type_support.cpp.o[0m
+[11.005s] [ 69%] [32mBuilding CXX object CMakeFiles/image_color_lab__rosidl_typesupport_c.dir/rosidl_typesupport_c/image_color_lab/msg/string_stamped__type_support.cpp.o[0m
+[11.118s] [ 71%] [32m[1mLinking CXX shared library libimage_color_lab__rosidl_typesupport_c.so[0m
+[11.275s] [ 71%] Built target image_color_lab__rosidl_typesupport_c
+[11.939s] [ 74%] [32m[1mLinking CXX shared library libimage_color_lab__rosidl_typesupport_fastrtps_c.so[0m
+[12.134s] [ 74%] Built target image_color_lab__rosidl_typesupport_fastrtps_c
+[12.226s] [ 74%] Built target image_color_lab
+[12.313s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.579s] [ 76%] Built target image_color_lab__py
+[14.674s] [ 79%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_generator_py.dir/rosidl_generator_py/image_color_lab/msg/_lab_s.c.o[0m
+[14.709s] [ 82%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_generator_py.dir/rosidl_generator_py/image_color_lab/msg/_string_stamped_s.c.o[0m
+[15.292s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/image_color_lab/libimage_color_lab__rosidl_generator_py.so[0m
+[15.472s] [ 84%] Built target image_color_lab__rosidl_generator_py
+[15.546s] [ 87%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.551s] [ 89%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.588s] [ 92%] [32mBuilding C object CMakeFiles/image_color_lab__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_c.c.o[0m
+[15.921s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/image_color_lab/image_color_lab_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.168s] [ 94%] Built target image_color_lab__rosidl_typesupport_introspection_c__pyext
+[16.184s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/image_color_lab/image_color_lab_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.185s] [100%] [32m[1mLinking C shared library rosidl_generator_py/image_color_lab/image_color_lab_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[16.389s] [100%] Built target image_color_lab__rosidl_typesupport_fastrtps_c__pyext
+[16.467s] [100%] Built target image_color_lab__rosidl_typesupport_c__pyext
+[16.505s] Invoked command in '/root/yahboomcar_ws/src/build/image_color_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/image_color_lab -- -j4 -l4
+[16.853s] Invoking command in '/root/yahboomcar_ws/src/build/image_color_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/image_color_lab
+[16.882s] -- Install configuration: ""
+[16.882s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/ament_index/resource_index/rosidl_interfaces/image_color_lab
+[16.882s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab
+[16.882s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[16.883s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_generator_c__visibility_control.h
+[16.883s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/string_stamped.h
+[16.884s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[16.889s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__struct.h
+[16.889s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__functions.h
+[16.890s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__functions.h
+[16.890s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__functions.c
+[16.890s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__functions.c
+[16.890s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__type_support.h
+[16.891s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__type_support.h
+[16.892s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__struct.h
+[16.898s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/lab.h
+[16.898s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/environment/library_path.sh
+[16.898s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/environment/library_path.dsv
+[16.898s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_generator_c.so
+[16.900s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_generator_c.so" to ""
+[16.905s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab
+[16.906s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[16.906s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.906s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[16.906s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__rosidl_typesupport_fastrtps_c.h
+[16.906s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__rosidl_typesupport_fastrtps_c.h
+[16.906s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_fastrtps_c.so
+[16.906s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_fastrtps_c.so" to ""
+[16.908s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab
+[16.908s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[16.908s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/string_stamped.hpp
+[16.908s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[16.908s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__builder.hpp
+[16.916s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__builder.hpp
+[16.917s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__struct.hpp
+[16.917s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__struct.hpp
+[16.918s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__traits.hpp
+[16.922s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__traits.hpp
+[16.922s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/lab.hpp
+[16.922s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab
+[16.922s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[16.922s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[16.922s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[16.922s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__rosidl_typesupport_fastrtps_cpp.hpp
+[16.922s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/dds_fastrtps
+[16.923s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.923s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_fastrtps_cpp.so
+[16.923s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.924s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab
+[16.924s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[16.925s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.926s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[16.926s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__type_support.c
+[16.926s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__rosidl_typesupport_introspection_c.h
+[16.927s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__type_support.c
+[16.928s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__rosidl_typesupport_introspection_c.h
+[16.936s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_introspection_c.so
+[16.936s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_introspection_c.so" to ""
+[16.936s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_c.so
+[16.936s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_c.so" to ""
+[16.937s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab
+[16.937s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[16.937s] -- Up-to-date: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[16.937s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__rosidl_typesupport_introspection_cpp.hpp
+[16.937s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__type_support.cpp
+[16.937s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__type_support.cpp
+[16.937s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__rosidl_typesupport_introspection_cpp.hpp
+[16.938s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_introspection_cpp.so
+[16.938s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_introspection_cpp.so" to ""
+[16.938s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_cpp.so
+[16.952s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_cpp.so" to ""
+[16.952s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/environment/pythonpath.sh
+[16.952s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/environment/pythonpath.dsv
+[16.952s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info
+[16.953s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info/top_level.txt
+[16.953s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info/PKG-INFO
+[16.953s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.953s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.953s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab
+[16.953s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[16.953s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_c.c
+[16.956s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[16.956s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[16.956s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/libimage_color_lab__rosidl_generator_py.so
+[16.957s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg
+[16.958s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_lab_s.c
+[16.958s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_string_stamped_s.c
+[16.958s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_lab.py
+[16.958s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_string_stamped.py
+[16.966s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/__init__.py
+[16.966s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.966s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_introspection_c.c
+[16.966s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/__init__.py
+[17.156s] Listing '/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab'...
+[17.156s] Compiling '/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/__init__.py'...
+[17.156s] Listing '/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg'...
+[17.157s] Compiling '/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/__init__.py'...
+[17.157s] Compiling '/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_lab.py'...
+[17.157s] Compiling '/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_string_stamped.py'...
+[17.173s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[17.176s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.178s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[17.186s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.187s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[17.187s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[17.187s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_generator_py.so
+[17.187s] -- Set runtime path of "/root/yahboomcar_ws/src/install/image_color_lab/lib/libimage_color_lab__rosidl_generator_py.so" to ""
+[17.189s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/msg/Lab.idl
+[17.189s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/msg/StringStamped.idl
+[17.189s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/msg/Lab.msg
+[17.189s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/msg/StringStamped.msg
+[17.190s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/ament_index/resource_index/package_run_dependencies/image_color_lab
+[17.200s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/ament_index/resource_index/parent_prefix_path/image_color_lab
+[17.200s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/environment/ament_prefix_path.sh
+[17.200s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/environment/ament_prefix_path.dsv
+[17.200s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/environment/path.sh
+[17.200s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/environment/path.dsv
+[17.200s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/local_setup.bash
+[17.200s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/local_setup.sh
+[17.201s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/local_setup.zsh
+[17.201s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/local_setup.dsv
+[17.201s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.dsv
+[17.201s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/ament_index/resource_index/packages/image_color_lab
+[17.201s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_cExport.cmake
+[17.202s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_cExport-noconfig.cmake
+[17.202s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_typesupport_fastrtps_cExport.cmake
+[17.211s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.211s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_cppExport.cmake
+[17.211s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.211s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.211s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_introspection_cExport.cmake
+[17.212s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.212s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_cExport.cmake
+[17.212s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_cExport-noconfig.cmake
+[17.213s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_introspection_cppExport.cmake
+[17.213s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.214s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_cppExport.cmake
+[17.223s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_cppExport-noconfig.cmake
+[17.224s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_pyExport.cmake
+[17.224s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_pyExport-noconfig.cmake
+[17.227s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/rosidl_cmake-extras.cmake
+[17.227s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.227s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.228s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/ament_cmake_export_libraries-extras.cmake
+[17.228s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/ament_cmake_export_targets-extras.cmake
+[17.228s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.231s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.232s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_labConfig.cmake
+[17.233s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/cmake/image_color_labConfig-version.cmake
+[17.234s] -- Installing: /root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.xml
+[17.255s] Invoked command in '/root/yahboomcar_ws/src/build/image_color_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/image_color_lab

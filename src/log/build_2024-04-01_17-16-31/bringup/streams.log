@@ -1,0 +1,36 @@
+[1.365s] Invoking command in '/root/yahboomcar_ws/src/bringup': PYTHONPATH=/root/yahboomcar_ws/src/build/bringup/prefix_override:/root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /root/yahboomcar_ws/src/build/bringup/build install --record /root/yahboomcar_ws/src/build/bringup/install.log --single-version-externally-managed install_data
+[1.845s] running egg_info
+[1.847s] creating ../build/bringup/bringup.egg-info
+[1.848s] writing ../build/bringup/bringup.egg-info/PKG-INFO
+[1.848s] writing dependency_links to ../build/bringup/bringup.egg-info/dependency_links.txt
+[1.848s] writing entry points to ../build/bringup/bringup.egg-info/entry_points.txt
+[1.848s] writing requirements to ../build/bringup/bringup.egg-info/requires.txt
+[1.849s] writing top-level names to ../build/bringup/bringup.egg-info/top_level.txt
+[1.849s] writing manifest file '../build/bringup/bringup.egg-info/SOURCES.txt'
+[1.853s] reading manifest file '../build/bringup/bringup.egg-info/SOURCES.txt'
+[1.854s] writing manifest file '../build/bringup/bringup.egg-info/SOURCES.txt'
+[1.854s] running build
+[1.855s] running build_py
+[1.855s] creating /root/yahboomcar_ws/src/build/bringup/build
+[1.855s] creating /root/yahboomcar_ws/src/build/bringup/build/lib
+[1.855s] creating /root/yahboomcar_ws/src/build/bringup/build/lib/bringup
+[1.855s] copying bringup/__init__.py -> /root/yahboomcar_ws/src/build/bringup/build/lib/bringup
+[1.855s] running install
+[1.856s] running install_lib
+[1.858s] creating /root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages/bringup
+[1.858s] copying /root/yahboomcar_ws/src/build/bringup/build/lib/bringup/__init__.py -> /root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages/bringup
+[1.859s] byte-compiling /root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages/bringup/__init__.py to __init__.cpython-310.pyc
+[1.863s] running install_data
+[1.863s] creating /root/yahboomcar_ws/src/install/bringup/share/ament_index
+[1.863s] creating /root/yahboomcar_ws/src/install/bringup/share/ament_index/resource_index
+[1.863s] creating /root/yahboomcar_ws/src/install/bringup/share/ament_index/resource_index/packages
+[1.864s] copying resource/bringup -> /root/yahboomcar_ws/src/install/bringup/share/ament_index/resource_index/packages
+[1.864s] copying package.xml -> /root/yahboomcar_ws/src/install/bringup/share/bringup
+[1.864s] copying launch/bringup.launch.py -> /root/yahboomcar_ws/src/install/bringup/share/bringup
+[1.864s] copying launch/Mapping.launch.py -> /root/yahboomcar_ws/src/install/bringup/share/bringup
+[1.867s] copying launch/Navigation_bringup.launch.py -> /root/yahboomcar_ws/src/install/bringup/share/bringup
+[1.867s] running install_egg_info
+[1.870s] Copying ../build/bringup/bringup.egg-info to /root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages/bringup-0.0.0-py3.10.egg-info
+[1.875s] running install_scripts
+[1.919s] writing list of installed files to '/root/yahboomcar_ws/src/build/bringup/install.log'
+[2.030s] Invoked command in '/root/yahboomcar_ws/src/bringup' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/bringup/prefix_override:/root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /root/yahboomcar_ws/src/build/bringup/build install --record /root/yahboomcar_ws/src/build/bringup/install.log --single-version-externally-managed install_data

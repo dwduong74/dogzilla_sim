@@ -1,0 +1,87 @@
+running egg_info
+creating ../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info
+writing ../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info/PKG-INFO
+writing dependency_links to ../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info/dependency_links.txt
+writing entry points to ../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info/entry_points.txt
+writing requirements to ../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info/requires.txt
+writing top-level names to ../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info/top_level.txt
+writing manifest file '../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info/SOURCES.txt'
+reading manifest file '../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info/SOURCES.txt'
+writing manifest file '../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build
+creating /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib
+creating /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/follow_common.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/line_common_bak.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/follow_line_bak.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/crossing_bak.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/voice_xgo_ctrl_mutl_goal_identify.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/voice_xgo_follow_line.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/crossing.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/voice_ctrl_colorhsv.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/voice_xgo_ctrl_action.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/voice_xgo_ctrl_mutl_goal.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/line_common.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/voice_xgo_cmd_re.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/voice_xgo_ctrl_run.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/__init__.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/colorHSV.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/follow_line.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+copying voice_xgo_ctrl_run/voice_xgo_ctrl_color_identify.py -> /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run
+running install
+running install_lib
+creating /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/follow_common.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/line_common_bak.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/follow_line_bak.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/crossing_bak.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/voice_xgo_ctrl_mutl_goal_identify.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/voice_xgo_follow_line.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/crossing.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/voice_ctrl_colorhsv.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/voice_xgo_ctrl_action.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/voice_xgo_ctrl_mutl_goal.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/line_common.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/voice_xgo_cmd_re.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/voice_xgo_ctrl_run.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/__init__.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/colorHSV.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/follow_line.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+copying /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build/lib/voice_xgo_ctrl_run/voice_xgo_ctrl_color_identify.py -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/follow_common.py to follow_common.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/line_common_bak.py to line_common_bak.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/follow_line_bak.py to follow_line_bak.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/crossing_bak.py to crossing_bak.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/voice_xgo_ctrl_mutl_goal_identify.py to voice_xgo_ctrl_mutl_goal_identify.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/voice_xgo_follow_line.py to voice_xgo_follow_line.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/crossing.py to crossing.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/voice_ctrl_colorhsv.py to voice_ctrl_colorhsv.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/voice_xgo_ctrl_action.py to voice_xgo_ctrl_action.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/voice_xgo_ctrl_mutl_goal.py to voice_xgo_ctrl_mutl_goal.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/line_common.py to line_common.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/voice_xgo_cmd_re.py to voice_xgo_cmd_re.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/voice_xgo_ctrl_run.py to voice_xgo_ctrl_run.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/__init__.py to __init__.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/colorHSV.py to colorHSV.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/follow_line.py to follow_line.cpython-310.pyc
+byte-compiling /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run/voice_xgo_ctrl_color_identify.py to voice_xgo_ctrl_color_identify.cpython-310.pyc
+running install_data
+creating /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/ament_index
+creating /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/ament_index/resource_index
+creating /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/ament_index/resource_index/packages
+copying resource/voice_xgo_ctrl_run -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/ament_index/resource_index/packages
+copying package.xml -> /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run
+running install_egg_info
+Copying ../build/voice_xgo_ctrl_run/voice_xgo_ctrl_run.egg-info to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages/voice_xgo_ctrl_run-0.0.0-py3.10.egg-info
+running install_scripts
+Installing follow_line script to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/voice_xgo_ctrl_run
+Installing voice_follow_line script to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/voice_xgo_ctrl_run
+Installing voice_xgo_cmd_re script to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/voice_xgo_ctrl_run
+Installing voice_xgo_ctrl_action script to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/voice_xgo_ctrl_run
+Installing voice_xgo_ctrl_color_identify script to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/voice_xgo_ctrl_run
+Installing voice_xgo_ctrl_mult_goal script to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/voice_xgo_ctrl_run
+Installing voice_xgo_ctrl_mutl_goal_identify script to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/voice_xgo_ctrl_run
+Installing voice_xgo_ctrl_run script to /root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/voice_xgo_ctrl_run
+writing list of installed files to '/root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/install.log'

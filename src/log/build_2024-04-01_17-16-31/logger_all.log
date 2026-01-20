@@ -1,0 +1,876 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fff24841480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fff24a0a2f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fff24a0a2f0>>)
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.337s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/yahboomcar_ws/src'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(bringup) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'bringup' with type 'ros.ament_python' and name 'bringup'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'champ' with type 'ros.ament_cmake' and name 'champ'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(champ_bringup) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'champ_bringup' with type 'ros.ament_cmake' and name 'champ_bringup'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(champ_msgs) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'champ_msgs' with type 'ros.ament_cmake' and name 'champ_msgs'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(image_color_lab) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'image_color_lab' with type 'ros.ament_cmake' and name 'image_color_lab'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(oradar_lidar) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'oradar_lidar' with type 'ros.ament_cmake' and name 'oradar_lidar'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(tf_publisher) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'tf_publisher' with type 'ros.ament_python' and name 'tf_publisher'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(voice_xgo_ctrl_run) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'voice_xgo_ctrl_run' with type 'ros.ament_python' and name 'voice_xgo_ctrl_run'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extension 'colcon_meta'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extensions ['ros']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_app_save_map) by extension 'ros'
+[0.365s] DEBUG:colcon.colcon_core.package_identification:Package 'yahboom_app_save_map' with type 'ros.ament_python' and name 'yahboom_app_save_map'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_base) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'yahboom_base' with type 'ros.ament_python' and name 'yahboom_base'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_bringup) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'yahboom_bringup' with type 'ros.ament_python' and name 'yahboom_bringup'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_description) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'yahboom_description' with type 'ros.ament_python' and name 'yahboom_description'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_dog_joint_state) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'yahboom_dog_joint_state' with type 'ros.ament_python' and name 'yahboom_dog_joint_state'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_laser) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'yahboom_laser' with type 'ros.ament_python' and name 'yahboom_laser'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(yahboom_qrcode) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package 'yahboom_qrcode' with type 'ros.ament_cmake' and name 'yahboom_qrcode'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(yahboomcar_ydlidar) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'yahboomcar_ydlidar' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.398s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /root/yahboomcar_ws/install
+[0.403s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.475s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'champ_msgs' is in: /root/yahboomcar_ws/install/champ_msgs
+	'champ' is in: /root/yahboomcar_ws/install/champ
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding champ champ_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/bringup', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/bringup', 'symlink_install': False, 'test_result_base': None}
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_target' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'champ' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/champ', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/champ', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/champ', 'symlink_install': False, 'test_result_base': None}
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.478s] DEBUG:colcon.colcon_core.verb:Building package 'champ_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/champ_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/champ_bringup', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/champ_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'champ_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/champ_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/champ_msgs', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/champ_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'image_color_lab' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'image_color_lab' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/image_color_lab', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/image_color_lab', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/image_color_lab', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'oradar_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'oradar_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/oradar_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/oradar_lidar', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/oradar_lidar', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'tf_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'tf_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/tf_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/tf_publisher', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/tf_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'voice_xgo_ctrl_run' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.481s] DEBUG:colcon.colcon_core.verb:Building package 'voice_xgo_ctrl_run' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/voice_xgo_ctrl_run', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/voice_xgo_ctrl_run', 'symlink_install': False, 'test_result_base': None}
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'yahboom_app_save_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.481s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_app_save_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/yahboom_app_save_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/yahboom_app_save_map', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/yahboom_app_save_map', 'symlink_install': False, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'cmake_target' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/yahboom_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/yahboom_base', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/yahboom_base', 'symlink_install': False, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'cmake_target' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/yahboom_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/yahboom_bringup', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/yahboom_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/yahboom_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/yahboom_description', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/yahboom_description', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'cmake_clean_cache' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'cmake_clean_first' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'cmake_force_configure' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'ament_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_dog_joint_state' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_dog_joint_state' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/yahboom_dog_joint_state', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/yahboom_dog_joint_state', 'symlink_install': False, 'test_result_base': None}
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'cmake_clean_cache' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'cmake_clean_first' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'cmake_force_configure' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'ament_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_laser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/yahboom_laser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/yahboom_laser', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/yahboom_laser', 'symlink_install': False, 'test_result_base': None}
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/yahboomcar_ydlidar', 'symlink_install': False, 'test_result_base': None}
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'yahboom_qrcode' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_qrcode' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/yahboomcar_ws/src/build/yahboom_qrcode', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/yahboomcar_ws/src/install/yahboom_qrcode', 'merge_install': False, 'path': '/root/yahboomcar_ws/src/yahboom_qrcode', 'symlink_install': False, 'test_result_base': None}
+[0.486s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.487s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.487s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/yahboomcar_ws/src/image_color_lab' with build type 'ament_cmake'
+[0.488s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/yahboomcar_ws/src/image_color_lab'
+[0.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/bringup' with build type 'ament_python'
+[0.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'ament_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/bringup/share/bringup/hook/ament_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/bringup/share/bringup/hook/ament_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/bringup/share/bringup/hook/ament_prefix_path.sh'
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.506s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/yahboomcar_ws/src/champ' with build type 'ament_cmake'
+[0.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/yahboomcar_ws/src/champ'
+[0.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.513s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/yahboomcar_ws/src/champ_bringup' with build type 'ament_cmake'
+[0.513s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/yahboomcar_ws/src/champ_bringup'
+[0.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/image_color_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/image_color_lab -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/image_color_lab
+[0.958s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/bringup'
+[0.958s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.959s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/champ -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/champ
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/champ_bringup -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/champ_bringup
+[1.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/bringup': PYTHONPATH=/root/yahboomcar_ws/src/build/bringup/prefix_override:/root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /root/yahboomcar_ws/src/build/bringup/build install --record /root/yahboomcar_ws/src/build/bringup/install.log --single-version-externally-managed install_data
+[2.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/bringup' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/bringup/prefix_override:/root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/bringup build --build-base /root/yahboomcar_ws/src/build/bringup/build install --record /root/yahboomcar_ws/src/build/bringup/install.log --single-version-externally-managed install_data
+[2.528s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/bringup' for CMake module files
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/bringup' for CMake config files
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/bringup/lib'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/bringup/bin'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/bringup/lib/pkgconfig/bringup.pc'
+[2.544s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/bringup/lib/python3.10/site-packages'
+[2.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'pythonpath')
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/bringup/share/bringup/hook/pythonpath.ps1'
+[2.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/bringup/share/bringup/hook/pythonpath.dsv'
+[2.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/bringup/share/bringup/hook/pythonpath.sh'
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/bringup/bin'
+[2.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/bringup/share/bringup/package.ps1'
+[2.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/bringup/share/bringup/package.dsv'
+[2.554s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/bringup/share/bringup/package.sh'
+[2.555s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/bringup/share/bringup/package.bash'
+[2.556s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/bringup/share/bringup/package.zsh'
+[2.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/bringup/share/colcon-core/packages/bringup)
+[2.558s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/yahboomcar_ws/src/champ_msgs' with build type 'ament_cmake'
+[2.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/yahboomcar_ws/src/champ_msgs'
+[2.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/champ_bringup -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/champ_bringup
+[2.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/champ_bringup -- -j4 -l4
+[2.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/champ_msgs -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/champ_msgs
+[3.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/champ_bringup -- -j4 -l4
+[3.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/champ_bringup
+[3.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_bringup)
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup' for CMake module files
+[3.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/champ_bringup
+[3.600s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup' for CMake config files
+[3.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_bringup', 'cmake_prefix_path')
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.ps1'
+[3.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.dsv'
+[3.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.sh'
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/lib'
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/bin'
+[3.602s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/lib/pkgconfig/champ_bringup.pc'
+[3.603s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/lib/python3.10/site-packages'
+[3.603s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/bin'
+[3.604s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.ps1'
+[3.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.dsv'
+[3.605s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.sh'
+[3.606s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.bash'
+[3.607s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.zsh'
+[3.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/champ_bringup/share/colcon-core/packages/champ_bringup)
+[3.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_bringup)
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup' for CMake module files
+[3.651s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup' for CMake config files
+[3.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_bringup', 'cmake_prefix_path')
+[3.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.ps1'
+[3.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.dsv'
+[3.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.sh'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/lib'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/bin'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/lib/pkgconfig/champ_bringup.pc'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/lib/python3.10/site-packages'
+[3.662s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_bringup/bin'
+[3.666s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.ps1'
+[3.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.dsv'
+[3.668s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.sh'
+[3.669s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.bash'
+[3.670s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_bringup/share/champ_bringup/package.zsh'
+[3.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/champ_bringup/share/colcon-core/packages/champ_bringup)
+[3.672s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/yahboomcar_ws/src/oradar_lidar' with build type 'ament_cmake'
+[3.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/yahboomcar_ws/src/oradar_lidar'
+[3.673s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.673s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/oradar_lidar -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/oradar_lidar
+[3.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/champ -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/champ
+[3.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/champ -- -j4 -l4
+[4.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/champ -- -j4 -l4
+[4.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/champ
+[4.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ)
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ' for CMake module files
+[4.123s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ' for CMake config files
+[4.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ', 'cmake_prefix_path')
+[4.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ/share/champ/hook/cmake_prefix_path.ps1'
+[4.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/champ/share/champ/hook/cmake_prefix_path.dsv'
+[4.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ/share/champ/hook/cmake_prefix_path.sh'
+[4.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/champ
+[4.128s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ/bin'
+[4.128s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ/lib/pkgconfig/champ.pc'
+[4.129s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ/lib/python3.10/site-packages'
+[4.129s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ/bin'
+[4.130s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ/share/champ/package.ps1'
+[4.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/champ/share/champ/package.dsv'
+[4.132s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ/share/champ/package.sh'
+[4.133s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ/share/champ/package.bash'
+[4.134s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ/share/champ/package.zsh'
+[4.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/champ/share/colcon-core/packages/champ)
+[4.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ)
+[4.195s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ' for CMake module files
+[4.197s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ' for CMake config files
+[4.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ', 'cmake_prefix_path')
+[4.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ/share/champ/hook/cmake_prefix_path.ps1'
+[4.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/champ/share/champ/hook/cmake_prefix_path.dsv'
+[4.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ/share/champ/hook/cmake_prefix_path.sh'
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ/bin'
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ/lib/pkgconfig/champ.pc'
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ/lib/python3.10/site-packages'
+[4.205s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ/bin'
+[4.206s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ/share/champ/package.ps1'
+[4.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/champ/share/champ/package.dsv'
+[4.209s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ/share/champ/package.sh'
+[4.210s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ/share/champ/package.bash'
+[4.211s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ/share/champ/package.zsh'
+[4.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/champ/share/colcon-core/packages/champ)
+[4.214s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/tf_publisher' with build type 'ament_python'
+[4.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_publisher', 'ament_prefix_path')
+[4.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/hook/ament_prefix_path.ps1'
+[4.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/hook/ament_prefix_path.dsv'
+[4.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/hook/ament_prefix_path.sh'
+[4.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/tf_publisher'
+[4.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/image_color_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/image_color_lab -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/image_color_lab
+[5.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/image_color_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/image_color_lab -- -j4 -l4
+[5.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/tf_publisher': PYTHONPATH=/root/yahboomcar_ws/src/build/tf_publisher/prefix_override:/root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tf_publisher build --build-base /root/yahboomcar_ws/src/build/tf_publisher/build install --record /root/yahboomcar_ws/src/build/tf_publisher/install.log --single-version-externally-managed install_data
+[6.899s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/tf_publisher' for CMake module files
+[6.900s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/tf_publisher' for CMake config files
+[6.901s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/tf_publisher/lib'
+[6.901s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/tf_publisher/bin'
+[6.901s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/tf_publisher/lib/pkgconfig/tf_publisher.pc'
+[6.901s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages'
+[6.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_publisher', 'pythonpath')
+[6.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/hook/pythonpath.ps1'
+[6.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/hook/pythonpath.dsv'
+[6.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/hook/pythonpath.sh'
+[6.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/tf_publisher' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/tf_publisher/prefix_override:/root/yahboomcar_ws/src/install/tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tf_publisher build --build-base /root/yahboomcar_ws/src/build/tf_publisher/build install --record /root/yahboomcar_ws/src/build/tf_publisher/install.log --single-version-externally-managed install_data
+[6.908s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/tf_publisher/bin'
+[6.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf_publisher)
+[6.909s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/package.ps1'
+[6.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/package.dsv'
+[6.910s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/package.sh'
+[6.912s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/package.bash'
+[6.913s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/tf_publisher/share/tf_publisher/package.zsh'
+[6.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/tf_publisher/share/colcon-core/packages/tf_publisher)
+[6.921s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/voice_xgo_ctrl_run' with build type 'ament_python'
+[6.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_xgo_ctrl_run', 'ament_prefix_path')
+[6.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/hook/ament_prefix_path.ps1'
+[6.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/hook/ament_prefix_path.dsv'
+[6.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/hook/ament_prefix_path.sh'
+[6.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.930s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.567s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/voice_xgo_ctrl_run'
+[7.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/champ_msgs -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/champ_msgs
+[9.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/champ_msgs -- -j4 -l4
+[9.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/oradar_lidar -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/oradar_lidar
+[9.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/oradar_lidar -- -j4 -l4
+[9.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/voice_xgo_ctrl_run': PYTHONPATH=/root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/prefix_override:/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/voice_xgo_ctrl_run build --build-base /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build install --record /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/install.log --single-version-externally-managed install_data
+[11.309s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run' for CMake module files
+[11.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/voice_xgo_ctrl_run' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/prefix_override:/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/voice_xgo_ctrl_run build --build-base /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/build install --record /root/yahboomcar_ws/src/build/voice_xgo_ctrl_run/install.log --single-version-externally-managed install_data
+[11.310s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run' for CMake config files
+[11.312s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib'
+[11.312s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/bin'
+[11.312s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/pkgconfig/voice_xgo_ctrl_run.pc'
+[11.312s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/lib/python3.10/site-packages'
+[11.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_xgo_ctrl_run', 'pythonpath')
+[11.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/hook/pythonpath.ps1'
+[11.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/hook/pythonpath.dsv'
+[11.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/hook/pythonpath.sh'
+[11.328s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/bin'
+[11.328s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice_xgo_ctrl_run)
+[11.329s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/package.ps1'
+[11.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/package.dsv'
+[11.330s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/package.sh'
+[11.331s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/package.bash'
+[11.340s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/voice_xgo_ctrl_run/package.zsh'
+[11.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/voice_xgo_ctrl_run/share/colcon-core/packages/voice_xgo_ctrl_run)
+[11.342s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/yahboom_app_save_map' with build type 'ament_python'
+[11.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_app_save_map', 'ament_prefix_path')
+[11.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/hook/ament_prefix_path.ps1'
+[11.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/hook/ament_prefix_path.dsv'
+[11.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/hook/ament_prefix_path.sh'
+[11.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.187s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/yahboom_app_save_map'
+[12.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/yahboom_app_save_map': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_app_save_map/prefix_override:/root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_app_save_map build --build-base /root/yahboomcar_ws/src/build/yahboom_app_save_map/build install --record /root/yahboomcar_ws/src/build/yahboom_app_save_map/install.log --single-version-externally-managed install_data
+[15.584s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_app_save_map' for CMake module files
+[15.585s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_app_save_map' for CMake config files
+[15.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/yahboom_app_save_map' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_app_save_map/prefix_override:/root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_app_save_map build --build-base /root/yahboomcar_ws/src/build/yahboom_app_save_map/build install --record /root/yahboomcar_ws/src/build/yahboom_app_save_map/install.log --single-version-externally-managed install_data
+[15.587s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_app_save_map/lib'
+[15.587s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_app_save_map/bin'
+[15.587s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/pkgconfig/yahboom_app_save_map.pc'
+[15.588s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_app_save_map/lib/python3.10/site-packages'
+[15.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_app_save_map', 'pythonpath')
+[15.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/hook/pythonpath.ps1'
+[15.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/hook/pythonpath.dsv'
+[15.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/hook/pythonpath.sh'
+[15.595s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_app_save_map/bin'
+[15.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_app_save_map)
+[15.596s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/package.ps1'
+[15.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/package.dsv'
+[15.598s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/package.sh'
+[15.609s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/package.bash'
+[15.609s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/yahboom_app_save_map/package.zsh'
+[15.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/yahboom_app_save_map/share/colcon-core/packages/yahboom_app_save_map)
+[15.610s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/yahboom_base' with build type 'ament_python'
+[15.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_base', 'ament_prefix_path')
+[15.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/hook/ament_prefix_path.ps1'
+[15.625s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/hook/ament_prefix_path.dsv'
+[15.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/hook/ament_prefix_path.sh'
+[15.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.404s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/yahboom_base'
+[16.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/image_color_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/image_color_lab -- -j4 -l4
+[17.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/image_color_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/image_color_lab
+[17.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_color_lab)
+[17.731s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab' for CMake module files
+[17.733s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab' for CMake config files
+[17.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_color_lab', 'cmake_prefix_path')
+[17.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/cmake_prefix_path.ps1'
+[17.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/image_color_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/image_color_lab
+[17.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/cmake_prefix_path.dsv'
+[17.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/cmake_prefix_path.sh'
+[17.764s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/lib'
+[17.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_color_lab', 'ld_library_path_lib')
+[17.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/ld_library_path_lib.ps1'
+[17.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/ld_library_path_lib.dsv'
+[17.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/ld_library_path_lib.sh'
+[17.769s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/bin'
+[17.769s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/lib/pkgconfig/image_color_lab.pc'
+[17.769s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/lib/python3.10/site-packages'
+[17.770s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/bin'
+[17.771s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.ps1'
+[17.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.dsv'
+[17.776s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.sh'
+[17.777s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.bash'
+[17.778s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.zsh'
+[17.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/image_color_lab/share/colcon-core/packages/image_color_lab)
+[18.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_color_lab)
+[18.216s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab' for CMake module files
+[18.217s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab' for CMake config files
+[18.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_color_lab', 'cmake_prefix_path')
+[18.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/cmake_prefix_path.ps1'
+[18.225s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/cmake_prefix_path.dsv'
+[18.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/cmake_prefix_path.sh'
+[18.232s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/lib'
+[18.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_color_lab', 'ld_library_path_lib')
+[18.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/ld_library_path_lib.ps1'
+[18.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/ld_library_path_lib.dsv'
+[18.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/hook/ld_library_path_lib.sh'
+[18.240s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/bin'
+[18.240s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/lib/pkgconfig/image_color_lab.pc'
+[18.241s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/lib/python3.10/site-packages'
+[18.241s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/image_color_lab/bin'
+[18.242s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.ps1'
+[18.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.dsv'
+[18.252s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.sh'
+[18.254s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.bash'
+[18.263s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/image_color_lab/share/image_color_lab/package.zsh'
+[18.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/image_color_lab/share/colcon-core/packages/image_color_lab)
+[18.276s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/yahboom_bringup' with build type 'ament_python'
+[18.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_bringup', 'ament_prefix_path')
+[18.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/hook/ament_prefix_path.ps1'
+[18.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/hook/ament_prefix_path.dsv'
+[18.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/hook/ament_prefix_path.sh'
+[18.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.761s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/yahboom_bringup'
+[19.762s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/yahboom_base': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_base/prefix_override:/root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_base build --build-base /root/yahboomcar_ws/src/build/yahboom_base/build install --record /root/yahboomcar_ws/src/build/yahboom_base/install.log --single-version-externally-managed install_data
+[21.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/yahboom_bringup': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_bringup/prefix_override:/root/yahboomcar_ws/src/install/yahboom_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_bringup build --build-base /root/yahboomcar_ws/src/build/yahboom_bringup/build install --record /root/yahboomcar_ws/src/build/yahboom_bringup/install.log --single-version-externally-managed install_data
+[21.829s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_base' for CMake module files
+[21.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/yahboom_base' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_base/prefix_override:/root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_base build --build-base /root/yahboomcar_ws/src/build/yahboom_base/build install --record /root/yahboomcar_ws/src/build/yahboom_base/install.log --single-version-externally-managed install_data
+[21.839s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_base' for CMake config files
+[21.845s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_base/lib'
+[21.845s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_base/bin'
+[21.846s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_base/lib/pkgconfig/yahboom_base.pc'
+[21.846s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_base/lib/python3.10/site-packages'
+[21.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_base', 'pythonpath')
+[21.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/hook/pythonpath.ps1'
+[21.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/hook/pythonpath.dsv'
+[21.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/hook/pythonpath.sh'
+[21.854s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_base/bin'
+[21.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_base)
+[21.863s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/package.ps1'
+[21.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/package.dsv'
+[21.875s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/package.sh'
+[21.884s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/package.bash'
+[21.885s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_base/share/yahboom_base/package.zsh'
+[21.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/yahboom_base/share/colcon-core/packages/yahboom_base)
+[21.896s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/yahboom_description' with build type 'ament_python'
+[21.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_description', 'ament_prefix_path')
+[21.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/hook/ament_prefix_path.ps1'
+[21.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/hook/ament_prefix_path.dsv'
+[21.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/hook/ament_prefix_path.sh'
+[21.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.912s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.257s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/yahboom_description'
+[23.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.284s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_bringup' for CMake module files
+[23.285s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_bringup' for CMake config files
+[23.286s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_bringup/lib'
+[23.286s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_bringup/bin'
+[23.287s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_bringup/lib/pkgconfig/yahboom_bringup.pc'
+[23.289s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_bringup/lib/python3.10/site-packages'
+[23.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_bringup', 'pythonpath')
+[23.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/yahboom_bringup' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_bringup/prefix_override:/root/yahboomcar_ws/src/install/yahboom_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_bringup build --build-base /root/yahboomcar_ws/src/build/yahboom_bringup/build install --record /root/yahboomcar_ws/src/build/yahboom_bringup/install.log --single-version-externally-managed install_data
+[23.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/hook/pythonpath.ps1'
+[23.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/hook/pythonpath.dsv'
+[23.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/hook/pythonpath.sh'
+[23.302s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_bringup/bin'
+[23.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_bringup)
+[23.303s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/package.ps1'
+[23.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/package.dsv'
+[23.305s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/package.sh'
+[23.307s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/package.bash'
+[23.315s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_bringup/share/yahboom_bringup/package.zsh'
+[23.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/yahboom_bringup/share/colcon-core/packages/yahboom_bringup)
+[23.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/yahboom_dog_joint_state' with build type 'ament_python'
+[23.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_dog_joint_state', 'ament_prefix_path')
+[23.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/hook/ament_prefix_path.ps1'
+[23.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/hook/ament_prefix_path.dsv'
+[23.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/hook/ament_prefix_path.sh'
+[23.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.448s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/yahboom_dog_joint_state'
+[24.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/yahboom_description': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_description/prefix_override:/root/yahboomcar_ws/src/install/yahboom_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_description build --build-base /root/yahboomcar_ws/src/build/yahboom_description/build install --record /root/yahboomcar_ws/src/build/yahboom_description/install.log --single-version-externally-managed install_data
+[25.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/yahboom_dog_joint_state': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_dog_joint_state/prefix_override:/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_dog_joint_state build --build-base /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build install --record /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/install.log --single-version-externally-managed install_data
+[26.679s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_description' for CMake module files
+[26.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/yahboom_description' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_description/prefix_override:/root/yahboomcar_ws/src/install/yahboom_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_description build --build-base /root/yahboomcar_ws/src/build/yahboom_description/build install --record /root/yahboomcar_ws/src/build/yahboom_description/install.log --single-version-externally-managed install_data
+[26.683s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_description' for CMake config files
+[26.684s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_description/lib'
+[26.685s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_description/bin'
+[26.685s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_description/lib/pkgconfig/yahboom_description.pc'
+[26.686s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_description/lib/python3.10/site-packages'
+[26.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_description', 'pythonpath')
+[26.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/hook/pythonpath.ps1'
+[26.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/hook/pythonpath.dsv'
+[26.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/hook/pythonpath.sh'
+[26.695s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_description/bin'
+[26.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_description)
+[26.700s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/package.ps1'
+[26.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/package.dsv'
+[26.703s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/package.sh'
+[26.709s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/package.bash'
+[26.714s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_description/share/yahboom_description/package.zsh'
+[26.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/yahboom_description/share/colcon-core/packages/yahboom_description)
+[26.720s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/yahboomcar_ws/src/yahboom_laser' with build type 'ament_python'
+[26.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_laser', 'ament_prefix_path')
+[26.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/hook/ament_prefix_path.ps1'
+[26.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/hook/ament_prefix_path.dsv'
+[26.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/hook/ament_prefix_path.sh'
+[26.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.084s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/yahboomcar_ws/src/yahboom_laser'
+[28.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.114s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state' for CMake module files
+[28.120s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state' for CMake config files
+[28.121s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib'
+[28.121s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/bin'
+[28.122s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/pkgconfig/yahboom_dog_joint_state.pc'
+[28.122s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages'
+[28.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_dog_joint_state', 'pythonpath')
+[28.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/yahboom_dog_joint_state' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_dog_joint_state/prefix_override:/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_dog_joint_state build --build-base /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build install --record /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/install.log --single-version-externally-managed install_data
+[28.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/hook/pythonpath.ps1'
+[28.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/hook/pythonpath.dsv'
+[28.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/hook/pythonpath.sh'
+[28.131s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/bin'
+[28.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_dog_joint_state)
+[28.132s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/package.ps1'
+[28.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/package.dsv'
+[28.140s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/package.sh'
+[28.141s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/package.bash'
+[28.142s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state/package.zsh'
+[28.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/colcon-core/packages/yahboom_dog_joint_state)
+[28.148s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/yahboomcar_ws/src/yahboomcar_ydlidar' with build type 'ament_cmake'
+[28.149s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/yahboomcar_ws/src/yahboomcar_ydlidar'
+[28.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/yahboomcar_ydlidar -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/ydlidar_ros2_driver
+[30.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/yahboom_laser': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_laser/prefix_override:/root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_laser build --build-base /root/yahboomcar_ws/src/build/yahboom_laser/build install --record /root/yahboomcar_ws/src/build/yahboom_laser/install.log --single-version-externally-managed install_data
+[31.052s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_laser' for CMake module files
+[31.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/yahboom_laser' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_laser/prefix_override:/root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_laser build --build-base /root/yahboomcar_ws/src/build/yahboom_laser/build install --record /root/yahboomcar_ws/src/build/yahboom_laser/install.log --single-version-externally-managed install_data
+[31.054s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_laser' for CMake config files
+[31.055s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_laser/lib'
+[31.055s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_laser/bin'
+[31.055s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_laser/lib/pkgconfig/yahboom_laser.pc'
+[31.056s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_laser/lib/python3.10/site-packages'
+[31.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_laser', 'pythonpath')
+[31.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/hook/pythonpath.ps1'
+[31.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/hook/pythonpath.dsv'
+[31.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/hook/pythonpath.sh'
+[31.059s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_laser/bin'
+[31.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_laser)
+[31.061s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/package.ps1'
+[31.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/package.dsv'
+[31.062s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/package.sh'
+[31.068s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/package.bash'
+[31.069s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_laser/share/yahboom_laser/package.zsh'
+[31.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/yahboom_laser/share/colcon-core/packages/yahboom_laser)
+[31.077s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/yahboomcar_ws/src/yahboom_qrcode' with build type 'ament_cmake'
+[31.077s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/yahboomcar_ws/src/yahboom_qrcode'
+[31.078s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/yahboom_qrcode': AMENT_PREFIX_PATH=/root/yahboomcar_ws/src/install/image_color_lab:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/yahboomcar_ws/src/install/image_color_lab:/root/yahboomcar_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ws/install/oradar_lidar:/root/yahboomcar_ws/install/image_color_lab:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble LD_LIBRARY_PATH=/root/yahboomcar_ws/src/install/image_color_lab/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/yahboomcar_ws/src/yahboom_qrcode -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/yahboom_qrcode
+[33.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake /root/yahboomcar_ws/src/yahboomcar_ydlidar -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/ydlidar_ros2_driver
+[33.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/ydlidar_ros2_driver -- -j4 -l4
+[35.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --build /root/yahboomcar_ws/src/build/champ_msgs -- -j4 -l4
+[36.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/yahboom_qrcode' returned '0': AMENT_PREFIX_PATH=/root/yahboomcar_ws/src/install/image_color_lab:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/yahboomcar_ws/src/install/image_color_lab:/root/yahboomcar_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ws/install/oradar_lidar:/root/yahboomcar_ws/install/image_color_lab:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble LD_LIBRARY_PATH=/root/yahboomcar_ws/src/install/image_color_lab/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/yahboomcar_ws/src/yahboom_qrcode -DCMAKE_INSTALL_PREFIX=/root/yahboomcar_ws/src/install/yahboom_qrcode
+[36.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/yahboom_qrcode': AMENT_PREFIX_PATH=/root/yahboomcar_ws/src/install/image_color_lab:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/yahboomcar_ws/src/install/image_color_lab:/root/yahboomcar_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ws/install/oradar_lidar:/root/yahboomcar_ws/install/image_color_lab:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble LD_LIBRARY_PATH=/root/yahboomcar_ws/src/install/image_color_lab/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/yahboomcar_ws/src/build/yahboom_qrcode -- -j4 -l4
+[36.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/yahboomcar_ws/src/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/champ_msgs
+[37.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_msgs)
+[37.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble /usr/bin/cmake --install /root/yahboomcar_ws/src/build/champ_msgs
+[37.031s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_msgs' for CMake module files
+[37.033s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_msgs' for CMake config files
+[37.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'cmake_prefix_path')
+[37.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.ps1'
+[37.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.dsv'
+[37.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.sh'
+[37.042s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_msgs/lib'
+[37.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'ld_library_path_lib')
+[37.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.ps1'
+[37.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.dsv'
+[37.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.sh'
+[37.050s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_msgs/bin'
+[37.050s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_msgs/lib/pkgconfig/champ_msgs.pc'
+[37.051s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_msgs/lib/python3.10/site-packages'
+[37.055s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/champ_msgs/bin'
+[37.056s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/package.ps1'
+[37.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/package.dsv'
+[37.059s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/package.sh'
+[37.065s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/package.bash'
+[37.066s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/champ_msgs/share/champ_msgs/package.zsh'
+[37.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/champ_msgs/share/colcon-core/packages/champ_msgs)
+[37.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/yahboomcar_ws/src/build/yahboom_qrcode' returned '2': AMENT_PREFIX_PATH=/root/yahboomcar_ws/src/install/image_color_lab:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/yahboomcar_ws/src/install/image_color_lab:/root/yahboomcar_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ws/install/oradar_lidar:/root/yahboomcar_ws/install/image_color_lab:/root/yahboomcar_ws/install/yahboom_laser:/root/yahboomcar_ws/install/yahboom_dog_joint_state:/root/yahboomcar_ws/install/yahboom_description:/root/yahboomcar_ws/install/yahboom_bringup:/root/yahboomcar_ws/install/yahboom_base:/root/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ws/install/voice_xgo_ctrl_run:/root/yahboomcar_ws/install/tf_publisher:/root/yahboomcar_ws/install/bringup:/opt/ros/humble LD_LIBRARY_PATH=/root/yahboomcar_ws/src/install/image_color_lab/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/yahboomcar_ws/src/install/image_color_lab/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/yahboomcar_ws/src/build/yahboom_qrcode -- -j4 -l4
+[37.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_qrcode)
+[37.627s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_qrcode' for CMake module files
+[37.627s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_qrcode' for CMake config files
+[37.631s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_qrcode/bin'
+[37.631s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_qrcode/lib/pkgconfig/yahboom_qrcode.pc'
+[37.631s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_qrcode/lib/python3.10/site-packages'
+[37.632s] Level 1:colcon.colcon_core.environment:checking '/root/yahboomcar_ws/src/install/yahboom_qrcode/bin'
+[37.632s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_qrcode/share/yahboom_qrcode/package.ps1'
+[37.634s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/yahboomcar_ws/src/install/yahboom_qrcode/share/yahboom_qrcode/package.dsv'
+[37.635s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_qrcode/share/yahboom_qrcode/package.sh'
+[37.638s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_qrcode/share/yahboom_qrcode/package.bash'
+[37.642s] INFO:colcon.colcon_core.shell:Creating package script '/root/yahboomcar_ws/src/install/yahboom_qrcode/share/yahboom_qrcode/package.zsh'
+[37.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/yahboomcar_ws/src/install/yahboom_qrcode/share/colcon-core/packages/yahboom_qrcode)
+[48.988s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.988s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[48.989s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[48.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.999s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[49.002s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[49.003s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[49.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ws/src/install/local_setup.ps1'
+[49.004s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/yahboomcar_ws/src/install/_local_setup_util_ps1.py'
+[49.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ws/src/install/setup.ps1'
+[49.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ws/src/install/local_setup.sh'
+[49.009s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/yahboomcar_ws/src/install/_local_setup_util_sh.py'
+[49.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ws/src/install/setup.sh'
+[49.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ws/src/install/local_setup.bash'
+[49.011s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ws/src/install/setup.bash'
+[49.013s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/yahboomcar_ws/src/install/local_setup.zsh'
+[49.013s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/yahboomcar_ws/src/install/setup.zsh'

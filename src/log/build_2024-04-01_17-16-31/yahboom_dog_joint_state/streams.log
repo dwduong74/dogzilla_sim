@@ -1,0 +1,41 @@
+[2.645s] Invoking command in '/root/yahboomcar_ws/src/yahboom_dog_joint_state': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_dog_joint_state/prefix_override:/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_dog_joint_state build --build-base /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build install --record /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/install.log --single-version-externally-managed install_data
+[3.408s] running egg_info
+[3.408s] creating ../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info
+[3.439s] writing ../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/PKG-INFO
+[3.440s] writing dependency_links to ../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/dependency_links.txt
+[3.440s] writing entry points to ../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/entry_points.txt
+[3.440s] writing requirements to ../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/requires.txt
+[3.440s] writing top-level names to ../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/top_level.txt
+[3.440s] writing manifest file '../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/SOURCES.txt'
+[3.440s] reading manifest file '../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/SOURCES.txt'
+[3.440s] writing manifest file '../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/SOURCES.txt'
+[3.440s] running build
+[3.446s] running build_py
+[3.446s] creating /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build
+[3.447s] creating /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build/lib
+[3.447s] creating /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state
+[3.447s] copying yahboom_dog_joint_state/test.py -> /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state
+[3.447s] copying yahboom_dog_joint_state/yahboomcar_joint_state.py -> /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state
+[3.447s] copying yahboom_dog_joint_state/__init__.py -> /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state
+[3.449s] running install
+[3.449s] running install_lib
+[3.449s] creating /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state
+[3.449s] copying /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state/test.py -> /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state
+[3.449s] copying /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state/yahboomcar_joint_state.py -> /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state
+[3.449s] copying /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state/__init__.py -> /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state
+[3.449s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state/test.py to test.cpython-310.pyc
+[3.449s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state/yahboomcar_joint_state.py to yahboomcar_joint_state.cpython-310.pyc
+[3.450s] byte-compiling /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state/__init__.py to __init__.cpython-310.pyc
+[3.450s] running install_data
+[3.450s] creating /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/ament_index
+[3.450s] creating /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/ament_index/resource_index
+[3.450s] creating /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/ament_index/resource_index/packages
+[3.454s] copying resource/yahboom_dog_joint_state -> /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/ament_index/resource_index/packages
+[3.454s] copying package.xml -> /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state
+[3.454s] copying launch/yahboom_dog_joint_state.launch.py -> /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state
+[3.454s] running install_egg_info
+[3.455s] Copying ../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info to /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state-0.0.0-py3.10.egg-info
+[3.461s] running install_scripts
+[3.508s] Installing yahboomcar_joint_state script to /root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/yahboom_dog_joint_state
+[3.513s] writing list of installed files to '/root/yahboomcar_ws/src/build/yahboom_dog_joint_state/install.log'
+[4.790s] Invoked command in '/root/yahboomcar_ws/src/yahboom_dog_joint_state' returned '0': PYTHONPATH=/root/yahboomcar_ws/src/build/yahboom_dog_joint_state/prefix_override:/root/yahboomcar_ws/src/install/yahboom_dog_joint_state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yahboom_dog_joint_state build --build-base /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/build install --record /root/yahboomcar_ws/src/build/yahboom_dog_joint_state/install.log --single-version-externally-managed install_data
