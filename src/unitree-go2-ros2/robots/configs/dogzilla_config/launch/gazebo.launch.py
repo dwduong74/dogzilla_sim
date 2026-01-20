@@ -10,17 +10,19 @@ from launch.actions import (
     ExecuteProcess,
     IncludeLaunchDescription,
     SetEnvironmentVariable,
+    RegisterEventHandler,
 )
 from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import Command, LaunchConfiguration
+from launch.substitutions import Command, LaunchConfiguration, PathJoinSubstitution
+from launch.event_handlers import OnProcessExit
 
 
 def generate_launch_description():
 
     use_sim_time = LaunchConfiguration("use_sim_time")
     description_path = LaunchConfiguration("description_path")
-    base_frame = "base_link"
+    robot_name = LaunchConfiguration("robot_name")
 
     config_pkg_share = launch_ros.substitutions.FindPackageShare(
         package="dogzilla_config"
@@ -28,6 +30,7 @@ def generate_launch_description():
     descr_pkg_share = launch_ros.substitutions.FindPackageShare(
         package="dogzilla_description"
     ).find("dogzilla_description")
+
     joints_config = os.path.join(config_pkg_share, "config/joints/joints.yaml")
     ros_control_config = os.path.join(
         config_pkg_share, "config/ros_control/ros_control.yaml"
@@ -35,6 +38,7 @@ def generate_launch_description():
     gait_config = os.path.join(config_pkg_share, "config/gait/gait.yaml")
     links_config = os.path.join(config_pkg_share, "config/links/links.yaml")
     default_model_path = os.path.join(descr_pkg_share, "xacro/dogzilla.xacro")
+
     # Use SDF world file for Ignition Fortress
     default_world_path = os.path.join(config_pkg_share, "worlds/default.sdf")
 
@@ -77,7 +81,16 @@ def generate_launch_description():
         value='/opt/ros/humble/lib'
     )
 
+    # Set Ignition resource path for models
+    ign_resource_path = SetEnvironmentVariable(
+        name='IGN_GAZEBO_RESOURCE_PATH',
+        value=[
+            os.path.join(config_pkg_share, 'worlds'), ':',
+            '/usr/share/ignition/ignition-gazebo6/worlds'
+        ]
+    )
 
+    # Launch Champ Bringup (Robot State Publisher, Joint State Publisher, etc.)
     bringup_ld = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
@@ -103,31 +116,56 @@ def generate_launch_description():
         }.items(),
     )
 
-    gazebo_ld = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(
-                get_package_share_directory("champ_gazebo"),
-                "launch",
-                "gazebo.launch.py",
-            )
-        ),
-        launch_arguments={
-            "use_sim_time": LaunchConfiguration("use_sim_time"),
-            "robot_name": LaunchConfiguration("robot_name"),
-            "world": LaunchConfiguration("world"),
-            "world_init_x": LaunchConfiguration("world_init_x"),
-            "world_init_y": LaunchConfiguration("world_init_y"),
-            "world_init_z": LaunchConfiguration("world_init_z"),
-            "world_init_heading": LaunchConfiguration("world_init_heading"),
-            "headless": "False",
-            "description_path": default_model_path,
-            "skip_robot_state_publisher": "True",
-        }.items(),
+    # Start Ignition Gazebo
+    start_ignition_cmd = ExecuteProcess(
+        cmd=['ign', 'gazebo', '-r', LaunchConfiguration("world")],
+        output='screen',
+    )
+
+    # Spawn Robot in Ignition
+    spawn_robot = Node(
+        package='ros_gz_sim',
+        executable='create',
+        arguments=[
+            '-name', robot_name,
+            '-allow_renaming', 'true',
+            '-topic', '/robot_description',
+            '-x', LaunchConfiguration("world_init_x"),
+            '-y', LaunchConfiguration("world_init_y"),
+            '-z', LaunchConfiguration("world_init_z"),
+            '-Y', LaunchConfiguration("world_init_heading"),
+        ],
+        output='screen',
+    )
+
+    # ROS GZ Bridges
+    clock_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=['/clock@rosgraph_msgs/msg/Clock[ignition.msgs.Clock'],
+        output='screen',
+    )
+
+    # Load Joint Group Effort Controller
+    load_joint_controller = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_group_effort_controller", "--controller-manager", "/controller_manager"],
+        output="screen",
+    )
+
+    # Load Joint State Broadcaster
+    load_joint_state_broadcaster = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_states_controller", "--controller-manager", "/controller_manager"],
+        output="screen",
     )
 
     return LaunchDescription(
         [
             gz_plugin_path,
+            ign_resource_path,
             declare_use_sim_time,
             declare_rviz,
             declare_robot_name,
@@ -139,8 +177,23 @@ def generate_launch_description():
             declare_world_init_y,
             declare_world_init_z,
             declare_world_init_heading,
-            bringup_ld,
-            gazebo_ld
 
+            start_ignition_cmd,
+            bringup_ld,
+            spawn_robot,
+            clock_bridge,
+
+            RegisterEventHandler(
+                event_handler=OnProcessExit(
+                    target_action=spawn_robot,
+                    on_exit=[load_joint_state_broadcaster],
+                )
+            ),
+            RegisterEventHandler(
+                event_handler=OnProcessExit(
+                    target_action=load_joint_state_broadcaster,
+                    on_exit=[load_joint_controller],
+                )
+            ),
         ]
     )
